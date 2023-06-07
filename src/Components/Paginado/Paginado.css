@@ -1,0 +1,22 @@
+.paginado{
+   display: flex;
+   font-size: larger;
+   justify-content: center;
+   background-color: rgb(216, 205, 255);
+   font-weight: bolder;
+}
+
+.paginado a{
+    cursor: pointer;
+}
+
+
+ .paginado button{
+    font-style: italic;
+    font-family: 'Lucida Sans Regular';
+    border-radius: 20%;
+    cursor: pointer;
+ }
+.paginado a:hover{
+    color: blue;
+}

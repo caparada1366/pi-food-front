@@ -1,0 +1,30 @@
+.navbar {
+    background-color: rgb(216, 205, 255); /* Cambia el color de fondo a tu gusto */
+    overflow: hidden; /* Evita que los elementos floten fuera de la barra de navegación */
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+  }
+
+  .navbar a {
+    float: left;
+  }
+
+  .navbar searchBar {
+    align-items: center;
+  }
+
+  .navbar button {
+    font-style: italic;
+    font-family: 'Lucida Sans Regular';
+    border-radius: 20%;
+    
+  }
+
+  .navbar button:hover {
+    background-color: #ddd;
+    color: black;
+    cursor: pointer;
+  }

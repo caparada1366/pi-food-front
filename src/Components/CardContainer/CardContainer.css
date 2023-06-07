@@ -1,0 +1,35 @@
+
+ .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 160vh;
+ }
+ .containteFull{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100vh;
+ }
+ 
+ .filtros{
+    display: block;
+    width: 15vw;
+    height: 160vh;
+    align-self: auto;
+ }
+ .card_container{
+    border: 2px solid rgba(0, 0, 255, 0.137); 
+    display: flex;
+    flex-wrap: wrap; 
+    padding: 1%;
+    justify-content: space-between;
+    width: 85vw;
+    align-self: flex-start;
+ }
+ .paginado{
+   align-self: center;
+   width: 100vw;
+ }

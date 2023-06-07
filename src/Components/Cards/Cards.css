@@ -1,0 +1,18 @@
+.cards{
+    border: 2px solid rgba(147, 138, 144, 0.876);
+    width: 20vw;
+    height: 270px;
+    font-size: 10px;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 20px;
+    background-color: rgba(192, 192, 192, 0.425);
+    text-decoration: none;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    
+}
+
+.cards:hover {
+    transform: scale(1.03);
+}

@@ -1,0 +1,41 @@
+.filtros{
+    background-color: rgb(216, 205, 255);
+    display: flex;
+    flex-direction: column;
+    font-style: italic;
+    font-family: 'Lucida Sans Regular';
+    font-weight: bold;
+    font-size: small;
+    
+}
+.filtros div{
+    margin-bottom: 10%;
+}
+
+.filtros button{
+    height: 28px;
+    align-self: center;
+    font-size: smaller;  
+    font-family: 'Lucida Sans Regular';
+    font-style: italic;
+    width: max-content;
+    padding: auto;
+    cursor: pointer;
+}
+
+.filtros input{
+    cursor: pointer;
+}
+
+.contenedorDietas{
+    display: grid;
+    border: 1px solid black;
+    
+   
+}
+
+.filtros select{
+    height: 20px;
+    align-self: center;
+    cursor: pointer;
+}
