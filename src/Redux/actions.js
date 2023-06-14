@@ -4,7 +4,7 @@ import axios from 'axios'
 export function getRecipes(){
        
     return async (dispatch) =>{
-        const data = (await axios.get('http://localhost:3001/recipes')).data
+        const data = (await axios.get('/recipes')).data
         dispatch({
             type: 'GET_RECIPES',
             payload: data
@@ -15,7 +15,7 @@ export function getRecipes(){
 //Acción que trae las dietas de la API y la BD
 export function getDiets(){
     return async (dispatch) =>{
-        const data = (await axios.get('http://localhost:3001/diets')).data
+        const data = (await axios.get('/diets')).data
         dispatch({
             type: 'GET_DIETS',
             payload: data
@@ -95,7 +95,7 @@ export function irPage(pagina){
 //Acción para buscar receta
 export function searchRecipe(name){
     return async (dispatch) =>{
-        const data = (await axios.get(`http://localhost:3001/recipes?name=${name}`)).data
+        const data = (await axios.get(`/recipes?name=${name}`)).data
         dispatch({
             type: 'SEARCH_RECIPE',
             payload: data
